@@ -1,14 +1,80 @@
-body{
-    background-color:#FECC66;
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree');
+
+h1, h2, li, p{
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* Get rid of the underline and blue text*/
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+    background: grey;
 }
 
 li{
-	text-decoration: none;
-	display:inline;
-	background-color: white;
-	color: black;
+  display: inline;
+  color: white;
+  text-align: center;
+
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Change title color to blue when cursor is on the tab */
+li a:hover {
+    color: blue;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+h2{
+  font-size: 2em;
+  text-align: center;
+}
+
+img{
+  width: 75%;
+  height: 75%;
+
+}
+
+div{
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer{
+  text-align: center
+}
+
+i{
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+    color: Blue;
 }
 
 
 
-
+body.index{
+  background: url("../images/background2.JPEG") no-repeat center center;
+  background-size: cover;
+  background-color: white;
+  background-attachment: fixed;
+  text-align: center;
+}
