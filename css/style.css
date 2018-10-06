@@ -59,14 +59,12 @@ footer{
   text-align: center
 }
 
-i{
-    text-decoration: none;
-    font-size: 2em;
-    text-align: center;
-    color: Blue;
+li.footer{
+  text-decoration: none;
+  font-size: 2em;
+  text-align: center;
+  color: Blue;
 }
-
-
 
 body.index{
   background: url(images/background2.JPEG) no-repeat center center;
