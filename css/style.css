@@ -1,7 +1,4 @@
 
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree');
 
 h1, h2, li, p{
@@ -72,7 +69,7 @@ i{
 
 
 body.index{
-  background: url("../images/background2.JPEG") no-repeat center center;
+  background: url(images/background2.JPEG) no-repeat center center;
   background-size: cover;
   background-color: white;
   background-attachment: fixed;
