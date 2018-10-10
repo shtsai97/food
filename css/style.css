@@ -67,7 +67,7 @@ li.footer{
 }
 
 body.index{
-  background: url(images/background2.JPEG) no-repeat center center;
+  background: url(../images/background2.JPEG) no-repeat center center;
   background-size: cover;
   background-color: white;
   background-attachment: fixed;
