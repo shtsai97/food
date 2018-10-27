@@ -16,7 +16,7 @@ li a:hover {
     color: blue;
 }
 
-@media screen and (min-device-width: 801px){
+@media only screen and (min-width: 801px){
   ul {
       display: flex;
       justify-content: space-around;
@@ -47,7 +47,7 @@ li a:hover {
   }
 }
 
-@media screen and (min-device-width: 416px) and (max-device-width: 800px){
+@media only screen and (min-width: 416px) and (max-width: 800px){
   ul {
       display: flex;
       -webkit-flex-flow: row wrap;
@@ -88,7 +88,7 @@ li a:hover {
   }
 }
 
-@media screen and (max-device-width: 415px){
+@media only screen and (max-width: 415px){
   ul {
       margin: 0;
       padding: 0;
