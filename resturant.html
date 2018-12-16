@@ -5,21 +5,23 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="shortcut icon" href="images/img01.png" />
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <title >Food N Stuff</title>
 
 </head>
 <body>
-
+  <a class="jumpToContent" href="#content">Jump to main content</a>
   <header>
       <nav>
           <ul>
-              <li><a href = "index.html">About</a></li>
-              <li><a href = "coffee.html">Coffee Shops</a></li>
-              <li><a href = "resturant.html">Resturants</a></li>
-              <li><a href = "craftbeer.html">Craft Beer</a></li>
-              <li><a href = "hotpot.html">Hot Pot</a></li>
+            <li><a href = "index.html">About</a></li>
+            <li><a href = "art.html">Art</a></li>
+            <li><a href = "resturant.html" class='active-page'>Resturants</a></li>
+            <li><a href = "contact.html">Contact</a></li>
+
 
           </ul>
       </nav>
@@ -28,23 +30,83 @@
       <h1>Resturants</h1>
   </header>
 
-  <div>
-    <h2 >1. moe燃炭火燒肉(二店)</h2>
+  <main>
+      <div class = "gallery container" id = "content">
+        <h2 >1. moe燃炭火燒肉(二店)</h2>
 
-    <img src="images/moe1.png" alt = "moe燃炭火燒肉 Picture 1"/>
+        <a class = "mix moe" href="images/moe1.png" data-lightbox="moe燃炭火燒肉"> <img src="images/moe1.png" alt="moe 1"></a>
 
-    <img src="images/moe2.png" alt = "moe燃炭火燒肉 Picture 2"/>
+        <a class = "mix moe" href="images/moe2.png" data-lightbox="moe燃炭火燒肉"> <img src="images/moe2.png" alt="moe 2"></a>
 
-    <p>Address: 台灣台北市大安區敦化南路一段270巷25號 </p>
+        <p>Address: 台灣台北市大安區敦化南路一段270巷25號 </p>
 
-    <p>Hours: Mon-Sun 17:00~23:00 </p>
+        <p>Hours: Mon-Sun 17:00~23:00 </p>
 
-    <p>Recommendation: Short Ribs, Rib eye </p>
+        <p>Recommendation: Short Ribs, Rib eye </p>
 
-  </div>
-  <footer>
-    <li class = "footer"><a href="https://www.facebook.com/profile.php?id=100000479314498" target="_blank" rel="noreferrer" aria-label="facebook link"> <i class="fab fa-facebook-square"></i></a> </li>
-    <li class = "footer"><a href="https://www.instagram.com/briantsai97/" target="_blank" rel="noreferrer" aria-label="instagram link"> <i class="fab fa-instagram"></i></a> </li>
-  </footer>
+      </div>
+
+      <div class = "gallery container">
+        <h2 >2. 二火鍋</h2>
+
+
+        <a class = "mix hotpot" href="images/hotpot1.jpeg" data-lightbox="二火鍋"> <img src="images/hotpot1.jpeg" alt="hotpot 1"></a>
+
+        <a class = "mix hotpot" href="images/hotpot2.jpeg" data-lightbox="二火鍋"> <img src="images/hotpot2.jpeg" alt="hotpot 2"></a>
+
+        <p>Address: 下土湾路土湾车站旁(重棉二厂内)  </p>
+
+        <p>Hours: Mon-Sun 18:00~22:30 </p>
+
+        <p>Recommendation: Medium Spicy (Varies based on everyone's tolerance) </p>
+
+      </div>
+
+      <div class = "gallery container" id = "content">
+
+        <h2 >3. HOLIC COFFEE & ROASTARY</h2>
+
+        <a class = "mix HCR" href="images/HCR1.jpeg" data-lightbox="HOLIC COFFEE & ROASTARY"> <img src="images/HCR1.jpeg" alt="HOLIC COFFEE & ROASTARY 1"></a>
+
+        <a class = "mix HCR" href="images/HCR2.jpeg" data-lightbox="HOLIC COFFEE & ROASTARY"> <img src="images/HCR2.jpeg" alt="HOLIC COFFEE & ROASTARY 2"></a>
+
+        <p>Address: 重庆渝中区鹅岭二厂 </p>
+
+        <p>Hours: Mon-Sun 11:00~19:00 </p>
+
+        <p>Recommendation: Latte </p>
+
+      </div>
+
+      <div>
+
+        <h2 >4. NEAT井然咖啡</h2>
+
+        <a class = "mix NEAT" href="images/NEAT1.jpeg" data-lightbox="NEAT井然咖啡"> <img src="images/NEAT1.jpeg" alt="NEAT井然咖啡 1"></a>
+
+        <a class = "mix NEAT" href="images/NEAT2.jpeg" data-lightbox="NEAT井然咖啡"> <img src="images/NEAT2.jpeg" alt="NEAT井然咖啡 2"></a>
+
+        <p>Address: 重庆渝北区水晶郦城三组团正门旁 </p>
+
+        <p>Hours: Mon-Sun 10:30 － 20:30 </p>
+
+        <p>Recommendation: Americano </p>
+
+      </div>
+
+      <footer>
+        <li class = "footer"><a href="https://www.facebook.com/profile.php?id=100000479314498" target="_blank" rel="noreferrer" aria-label="facebook link"> <i class="fab fa-facebook-square"></i></a> </li>
+        <li class = "footer"><a href="https://www.instagram.com/briantsai97/" target="_blank" rel="noreferrer" aria-label="instagram link"> <i class="fab fa-instagram"></i></a> </li>
+      </footer>
+    </main>
+
+    <script src="js/lightbox-plus-jquery.js"></script>
+
+    <script src="js/mixitup.min.js"></script>
+
+    <script>
+        var mixer = mixitup('.container');
+
+    </script>
 </body>
 </html>
